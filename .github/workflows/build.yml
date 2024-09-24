@@ -1,34 +1,19 @@
 name: Build Pelican Site
 
-on:
-  push:
-    branches:
-      - main  # Replace with your default branch if different
+on: [push]
 
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
-      - name: Checkout repository
-        uses: actions/checkout@v2
+      - uses: actions/checkout@v3
+      
+      # Install necessary packages
+      - run: sudo apt-get update && sudo apt-get install -y pelican make
 
-      - name: Set up Python
-        uses: actions/setup-python@v2
-        with:
-          python-version: '3.10'  # Specify the Python version you want
-
-      - name: Install dependencies
-        run: |
-          pip install -r requirements.txt  # Install dependencies from requirements.txt
-
-      - name: Build the site
-        run: pelican content -o docs -s publishconf.py  # Output to docs directory
-
-      - name: Deploy to GitHub Pages
-        run: |
-          git config --local user.name "GitHub Actions"
-          git config --local user.email "actions@github.com"
-          git add docs  # Add changes in the docs directory
-          git commit -m "Deploy updated site" || echo "No changes to commit"
-          git push origin main  # Assuming your GitHub Pages branch is gh-pages
+      # (Optional) Clone your theme or plugins if needed
+      
+      # Build the Pelican site
+      - run: make publish
+      
+      # (Optional) Any additional steps like PDF rendering
