@@ -18,6 +18,10 @@
     <h2 class="entry-title">
       {{ page.title }}
     </h2>
+    {% if page.metadata.featured_image %}
+      <img src="{{page.featured_image}}" alt="{{page.title}}">
+    {% endif %}
+    <br>
   </header>
   <div class="entry-content">
     <p>{{ page.content }}</p>
