@@ -67,7 +67,25 @@ DISQUS_USERNAME = None
 GOOGLE_ANALYTICS_ID = None
 ```
 
+
+## How to edit the publishconf config
+
+Edit the below line
+
+```jinja
+
+SITEURL = "https://layoutshub.github.io/pelican-twenty-fifteen-theme/"
+# Disqus Comment Plugin
+DISQUS_USERNAME = None
+
+# Google Analytics Tracking
+GOOGLE_ANALYTICS_ID = None
+```
+
+
+
 ---
+
 
 ### Article Page Tags
 
