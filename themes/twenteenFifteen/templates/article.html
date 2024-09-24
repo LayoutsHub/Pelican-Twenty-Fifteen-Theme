@@ -18,6 +18,11 @@
     <h2 class="entry-title">
       {{ article.title }}
     </h2>
+    <br>
+    {% if article.metadata.featured_image %}
+      <img src="{{article.featured_image}}" alt="{{article.title}}">
+    {% endif %}
+    <br>
   </header>
   <div class="entry-content">
     <p>{{ article.content }}</p>
