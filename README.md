@@ -57,6 +57,9 @@ SITEURL = "https://layoutshub.github.io/pelican-twenty-fifteen-theme"
 SITE_LOGO_URL = "YOUR_SITE_LOGO"
 SITE_SUMMARY = "A collection of Pelican, Jekyll, Hugo, Gatsby theme. Ported themes from other cms."
 
+# TimeZone, Replace 'Europe/Rome' with your preferred TIMEZONE.
+TIMEZONE = 'Europe/Rome'
+
 # Disqus Comment Plugin
 DISQUS_USERNAME = None
 
