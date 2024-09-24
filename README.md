@@ -46,7 +46,7 @@ This theme gives you the perfect mix of speed, simplicity, and powerful SEO tool
 
 ---
 
-## How to edit the pelican config
+## How to edit the pelicanconf config
 
 Edit the below config in pelicanconf.py - 
 
@@ -70,11 +70,11 @@ GOOGLE_ANALYTICS_ID = None
 
 ## How to edit the publishconf config
 
-Edit the below line
+Edit the below line publishconf.py -
 
 ```jinja
-
 SITEURL = "https://layoutshub.github.io/pelican-twenty-fifteen-theme/"
+
 # Disqus Comment Plugin
 DISQUS_USERNAME = None
 
@@ -82,10 +82,7 @@ DISQUS_USERNAME = None
 GOOGLE_ANALYTICS_ID = None
 ```
 
-
-
 ---
-
 
 ### Article Page Tags
 
