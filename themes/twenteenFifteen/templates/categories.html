@@ -1,0 +1,38 @@
+{% extends 'base.html' %}
+
+{% block robots %}
+    <meta name="robots" content="nonindex, follow"/>
+{% endblock %}
+
+{% block content %}
+<article class="post type-post status-publish format-standard hentry">
+  <header class="entry-header">
+    <h2 class="entry-title">
+       Categories: 
+    </h2>
+  </header>
+  <div class="entry-content">
+    {% for category, articles in categories %}
+    <div class="category-block" style="border: 1px solid #eee; padding: 20px; margin-bottom: 15px;background-color: rgb(241, 241, 241);">
+        <p style="text-transform: capitalize;"><b><a href="/category/{{category.name}}.html">{{ category.name }}</a></b></p>  <!-- Category Name -->
+            {% for article in articles %}
+            <li>
+                <a href="/{{ article.url }}">{{ article.title }}</a>
+            </li>
+            {% endfor %}
+    </div>
+    {% endfor %}
+    </div>
+  <footer class="entry-footer">
+    <span class="posted-on">
+      <span class="screen-reader-text">작성일자 </span>
+        <time class="entry-date published">Updated</time>
+    </span>
+    <span class="cat-links">
+      <span class="screen-reader-text">카테고리 </span>
+        Categories
+    </span>
+  </footer> 
+</article>
+{% endblock %}
+

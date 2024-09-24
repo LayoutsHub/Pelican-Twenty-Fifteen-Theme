@@ -1,0 +1,28 @@
+<script type='text/javascript' src="{{SITEURL}}/theme/assets/scripts/vendors/jquery/jquery.js"></script>
+  <script type='text/javascript' src="{{SITEURL}}/theme/assets/scripts/vendors/jquery/jquery-migrate.min.js"></script>
+  <script type='text/javascript' src="{{SITEURL}}/theme/assets/scripts/vendors/quicklink-2.3.0.js"></script>    
+
+  <script>
+    window.ad0dEventListener('load', () => {
+
+      quicklink({
+        ignores: [
+          // ignore all /api/* urls
+          /\/api\/?/,
+          // ignore .pdf files
+          (uri) => uri.includes('.pdf'),
+          // ignore all links, scripts which has explicit noprefetch
+          (uri, elem) => elem.hasAttribute('noprefetch'),
+        ],
+      }).listen();
+
+    });
+  </script>
+
+<script type='text/javascript' src="{{SITEURL}}/theme/assets/scripts/vendors/skip-link-focus-fix.js"></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var screenReaderText = {"expand":"<span class=\"screen-reader-text\">\ud558\uc704 \uba54\ub274 \ud655\uc7a5<\/span>","collapse":"<span class=\"screen-reader-text\">\ud558\uc704 \uba54\ub274 \ucd95\uc18c<\/span>"};
+/* ]]> */
+</script>
+<script type='text/javascript' src="{{SITEURL}}/theme/assets/scripts/vendors/functions.js"></script>

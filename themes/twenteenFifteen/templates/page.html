@@ -1,0 +1,37 @@
+{% extends 'base.html' %}
+
+{% block title %}
+  {{ page.title }}
+{% endblock %}
+
+{% block robots %}
+  {% if page and page.metadata.robots %}
+    <meta name="robots" content="{{page.robots}}"/>
+  {% else %}
+    <meta name="robots" content="nonindex, follow"/>
+  {% endif %}
+{% endblock %}
+
+{% block content %} 
+<article class="post type-post status-publish format-standard hentry">
+  <header class="entry-header">
+    <h2 class="entry-title">
+      {{ page.title }}
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>{{ page.content }}</p>
+  </div>
+  <footer class="entry-footer">
+    <span class="posted-on">
+      <span class="screen-reader-text">Skip</span>
+        <time class="entry-date published">Updated</time>
+        <time class="updated">Updated</time>
+    </span>
+    <span class="cat-links">
+      <span class="screen-reader-text">Category </span>
+      <span>Page</span>
+    </span>
+  </footer>
+</article>
+{% endblock %}
