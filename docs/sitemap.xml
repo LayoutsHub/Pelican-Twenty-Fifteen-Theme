@@ -5,56 +5,56 @@ xmlns:xhtml="http://www.w3.org/1999/xhtml"
 xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
-<loc>https://layoutshub.github.io/Pelican-Twenty-Fifteen-Theme/</loc>
-<lastmod>2024-09-24T22:59:42-00:00</lastmod>
+<loc>https://layoutshub.github.io/pelican-twenty-fifteen-theme/</loc>
+<lastmod>2024-09-24T23:13:37-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>https://layoutshub.github.io/Pelican-Twenty-Fifteen-Theme/about.html</loc>
-<lastmod>2024-09-24T22:59:42-00:00</lastmod>
+<loc>https://layoutshub.github.io/pelican-twenty-fifteen-theme/about.html</loc>
+<lastmod>2024-09-24T23:13:37-00:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>https://layoutshub.github.io/Pelican-Twenty-Fifteen-Theme/categories.html</loc>
-<lastmod>2024-09-24T22:59:42-00:00</lastmod>
+<loc>https://layoutshub.github.io/pelican-twenty-fifteen-theme/categories.html</loc>
+<lastmod>2024-09-24T23:13:37-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>https://layoutshub.github.io/Pelican-Twenty-Fifteen-Theme/contact.html</loc>
-<lastmod>2024-09-24T22:59:42-00:00</lastmod>
+<loc>https://layoutshub.github.io/pelican-twenty-fifteen-theme/contact.html</loc>
+<lastmod>2024-09-24T23:13:37-00:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>https://layoutshub.github.io/Pelican-Twenty-Fifteen-Theme/what-is-loreum-ispum.html</loc>
+<loc>https://layoutshub.github.io/pelican-twenty-fifteen-theme/what-is-loreum-ispum.html</loc>
 <lastmod>2024-09-14T00:00:00+02:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>https://layoutshub.github.io/Pelican-Twenty-Fifteen-Theme/where-can-i-get-some.html</loc>
+<loc>https://layoutshub.github.io/pelican-twenty-fifteen-theme/where-can-i-get-some.html</loc>
 <lastmod>2024-09-14T00:00:00+02:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>https://layoutshub.github.io/Pelican-Twenty-Fifteen-Theme/where-does-it-come-from.html</loc>
+<loc>https://layoutshub.github.io/pelican-twenty-fifteen-theme/where-does-it-come-from.html</loc>
 <lastmod>2024-09-14T00:00:00+02:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>https://layoutshub.github.io/Pelican-Twenty-Fifteen-Theme/why-do-we-use-it.html</loc>
+<loc>https://layoutshub.github.io/pelican-twenty-fifteen-theme/why-do-we-use-it.html</loc>
 <lastmod>2024-12-14T00:00:00+01:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
