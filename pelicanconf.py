@@ -1,8 +1,8 @@
-AUTHOR = 'YOUR_NAME'
-SITENAME = "YOUR_SITE_NAME"
+AUTHOR = 'Layouts Hub'
+SITENAME = "Layout Hub"
 SITEURL = "https://layoutshub.github.io/Pelican-Twenty-Fifteen-Theme"
 SITE_LOGO_URL = "YOUR_SITE_LOGO"
-SITE_SUMMARY = "YOUR_SITE_SUMMARY"
+SITE_SUMMARY = "A collection of Pelican, Jekyll, Hugo, Gatsby theme. Ported themes from other cms."
 
 PATH = "content"
 PAGE_PATHS = ['pages']
