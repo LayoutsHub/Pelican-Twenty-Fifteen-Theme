@@ -1,11 +1,13 @@
 AUTHOR = 'Layouts Hub'
 SITENAME = "Layout Hub"
-SITEURL = "https://layoutshub.github.io/Pelican-Twenty-Fifteen-Theme"
+SITEURL = "https://layoutshub.github.io/pelican-twenty-fifteen-theme"
 SITE_LOGO_URL = "YOUR_SITE_LOGO"
 SITE_SUMMARY = "A collection of Pelican, Jekyll, Hugo, Gatsby theme. Ported themes from other cms."
 
 PATH = "content"
 PAGE_PATHS = ['pages']
+OUTPUT_PATH = 'docs/'
+
 THEME = "themes/twenteenFifteen"
 
 TIMEZONE = 'Europe/Rome'
