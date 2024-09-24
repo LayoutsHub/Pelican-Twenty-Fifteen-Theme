@@ -31,8 +31,10 @@
         <aside class="widget widget_meta">
           <h2 class="widget-title">Pages</h2>
           <ul>
-            {% for page in MY_STATIC_PAGES %}
-              <li><a href="{{ SITEURL }}/{{page.url}}">{{page.title}}</a></li>
+            {% for page in pages %}
+              {% if page.slug != '404' %}
+                <li><a href="{{ SITEURL }}/{{page.url}}">{{page.title}}</a></li>
+              {% endif %}
             {% endfor %}
           </ul>
         </aside>

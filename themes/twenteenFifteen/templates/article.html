@@ -20,7 +20,7 @@
     </h2>
     <br>
     {% if article.metadata.featured_image %}
-      <img src="{{article.featured_image}}" alt="{{article.title}}">
+      <img loading="lazy" src="{{article.featured_image}}" alt="{{article.title}}"/>
     {% endif %}
     <br>
   </header>

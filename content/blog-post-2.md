@@ -1,9 +1,9 @@
 ---
-title: Flake it till you make it
+title: Why do we use it?
 summary: Summary of the post
-featured_image: http://example.com/image.jpg
-category: chatgpt
-slug: this
+featured_image: https://placehold.co/600x400/EEE/31343C
+category: ispum
+slug: why-do-we-use-it
 author: Vishal chopra
 date: 14-12-2024
 status: published

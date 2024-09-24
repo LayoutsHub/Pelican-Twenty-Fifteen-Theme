@@ -1,6 +1,6 @@
 AUTHOR = 'YOUR_NAME'
 SITENAME = "YOUR_SITE_NAME"
-SITEURL = ""
+SITEURL = "https://layoutshub.github.io/Pelican-Twenty-Fifteen-Theme"
 SITE_LOGO_URL = "YOUR_SITE_LOGO"
 SITE_SUMMARY = "YOUR_SITE_SUMMARY"
 
@@ -69,7 +69,6 @@ SITEMAP = {
         "^/noindex/",  # starts with "/noindex/"
         "category/",
         "404.html",
-        "categories.html",
         "index.*.html",
         "page.*.html",
         "\.json$"   # ends with ".json"

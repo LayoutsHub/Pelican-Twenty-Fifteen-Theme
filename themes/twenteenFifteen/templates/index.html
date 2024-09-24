@@ -8,7 +8,7 @@
   {% if output_file == 'index.html' %}
     <meta name="robots" content="index, follow"/>
   {% else %}
-    <meta name="robots" content="noindex, nofollow"/>
+    <meta name="robots" content="noindex, follow"/>
   {% endif %}
 {% endblock %} 
 
@@ -19,6 +19,11 @@
         <h2 class="entry-title">
         <a href="/{{ article.url }}" rel="bookmark">{{ article.title }}</a>
         </h2>
+        <br>
+        {% if article.metadata.featured_image %}
+            <img loading="lazy" src="{{article.featured_image}}" alt="{{article.title}}"/>
+        {% endif %}
+        <br>
     </header>
     <div class="entry-content">
         <p>{{ article.summary }}</p>
@@ -43,7 +48,7 @@
     
             {# Previous button if there is a previous page #}
             {% if articles_page.has_previous() %}
-            <a class="prev page-numbers" href="{{ SITEURL }}{% if articles_page.previous_page_number() > 1 %}/page/{{ articles_page.previous_page_number() }}.html{% else %}/index.html{% endif %}" rel="prev">Previous</a>
+            <a class="prev page-numbers" href="{{ SITEURL }}{% if articles_page.previous_page_number() > 1 %}/page/{{ articles_page.previous_page_number() }}.html{% else %}/{% endif %}" rel="prev">Previous</a>
             {% endif %}
     
             {# Define the start and end of the pagination range #}
