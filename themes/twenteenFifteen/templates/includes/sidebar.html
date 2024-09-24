@@ -24,7 +24,7 @@
           <h2 class="widget-title">Recent Posts</h2>
           <ul>
             {% for article in articles[:6] %}
-              <li><a href="/{{article.url}}">{{article.title}}</a></li>
+              <li><a href="{{ SITEURL }}/{{article.url}}">{{article.title}}</a></li>
             {% endfor %}
           </ul>
         </aside>

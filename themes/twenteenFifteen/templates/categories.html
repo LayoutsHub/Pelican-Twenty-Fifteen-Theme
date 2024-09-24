@@ -19,10 +19,10 @@
   <div class="entry-content">
     {% for category, articles in categories %}
     <div class="category-block" style="border: 1px solid #eee; padding: 20px; margin-bottom: 15px;background-color: rgb(241, 241, 241);">
-        <p style="text-transform: capitalize;"><b><a href="/category/{{category.name}}.html">{{ category.name }}</a></b></p>  <!-- Category Name -->
+        <p style="text-transform: capitalize;"><b><a href="{{ SITEURL }}/category/{{category.name}}.html">{{ category.name }}</a></b></p>  <!-- Category Name -->
             {% for article in articles %}
             <li>
-                <a href="/{{ article.url }}">{{ article.title }}</a>
+                <a href="{{ SITEURL }}/{{ article.url }}">{{ article.title }}</a>
             </li>
             {% endfor %}
     </div>

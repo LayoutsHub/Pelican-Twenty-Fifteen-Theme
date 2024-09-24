@@ -12,22 +12,22 @@
 <article class="post type-post status-publish format-standard hentry">
   <header class="entry-header">
     <h2 class="entry-title">
-      <a href="/{{ article.url }}" rel="bookmark">{{ article.title }}</a>
+      <a href="{{ SITEURL }}/{{ article.url }}" rel="bookmark">{{ article.title }}</a>
     </h2>
   </header>
   <div class="entry-content">
     <p>{{ article.summary }}</p>
-    <a href="/{{ article.url }}" class="more-link"><span class="screen-reader-text">{{ article.title }}</span> Read More...</a>
+    <a href="{{ SITEURL }}/{{ article.url }}" class="more-link"><span class="screen-reader-text">{{ article.title }}</span> Read More...</a>
   </div>
   <footer class="entry-footer">
     <span class="posted-on">
       <span class="screen-reader-text">작성일자 </span>
-      <a href="/{{ article.url }}" rel="bookmark">
+      <a href="{{ SITEURL }}/{{ article.url }}" rel="bookmark">
         <time class="entry-date published" datetime="{{ article.date }}">{{ article.date.strftime('%Y-%m-%d') }}</time>
       </a>
     </span>
     <span class="cat-links">
-      <span class="screen-reader-text">카테고리 </span>
+      <span class="screen-reader-text">Category </span>
         <a href="#" rel="category">{{ article.category }}</a>
     </span>
   </footer> 

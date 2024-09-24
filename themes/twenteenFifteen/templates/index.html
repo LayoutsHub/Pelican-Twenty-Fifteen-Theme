@@ -17,7 +17,7 @@
     <article class="post type-post status-publish format-standard hentry">
     <header class="entry-header">
         <h2 class="entry-title">
-        <a href="/{{ article.url }}" rel="bookmark">{{ article.title }}</a>
+        <a href="{{ SITEURL }}/{{ article.url }}" rel="bookmark">{{ article.title }}</a>
         </h2>
         <br>
         {% if article.metadata.featured_image %}
@@ -36,7 +36,7 @@
         </span>
         <span class="cat-links">
         <span class="screen-reader-text">Category </span>
-        <a href="/category/{{ article.category }}.html" rel="category">{{ article.category }}</a>
+        <a href="{{ SITEURL }}/category/{{ article.category }}.html" rel="category">{{ article.category }}</a>
         </span>
     </footer>
     </article>
