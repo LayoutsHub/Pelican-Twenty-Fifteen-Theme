@@ -6,7 +6,7 @@ author: Vishal Chopra
 category: loreum
 slug: loreum-ispum-usage
 date: 14/09/2024
-robots: index, follow
+robots: noindex, nofollow
 status: published
 ---
 

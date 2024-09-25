@@ -6,7 +6,7 @@ author: Vishal Chopra
 category: loreum
 slug: where-does-it-come-from
 date: 14/09/2024
-robots: index, follow
+robots: noindex, nofollow
 status: published
 ---
 

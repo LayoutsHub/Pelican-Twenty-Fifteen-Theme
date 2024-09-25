@@ -6,7 +6,7 @@ author: Vishal Chopra
 category: loreum
 slug: where-can-i-get-some
 date: 14/09/2024
-robots: index, follow
+robots: noindex, nofollow
 status: published
 ---
 
