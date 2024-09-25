@@ -1,5 +1,5 @@
 AUTHOR = 'Layouts Hub'
-SITENAME = "Layouts Hub"
+SITENAME = "Pelican Twenty Fifteen Theme | Layouts Hub"
 SITEURL = ""
 SITE_LOGO_URL = "YOUR_SITE_LOGO"
 SITE_SUMMARY = "A collection of Pelican, Jekyll, Hugo, Gatsby theme. Ported themes from other cms."
