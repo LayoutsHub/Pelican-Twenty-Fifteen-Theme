@@ -18,9 +18,6 @@ Nobody likes a slow website! This theme is optimized for speed, so your pages lo
 #### Sitemap
 Easily generate a sitemap for your site. This helps search engines like Google to better index your content, improving your visibility online.
 
-#### HTML/CSS Minification
-Your site's code is automatically compressed, making it smaller and faster to load without affecting the design or functionality.
-
 ### SEO Features
 
 #### Optimized for SEO
