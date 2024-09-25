@@ -14,6 +14,11 @@
     <h2 class="entry-title">
       <a href="{{ SITEURL }}/{{ article.url }}" rel="bookmark">{{ article.title }}</a>
     </h2>
+    <br>
+    {% if article.metadata.featured_image %}
+    <img loading="lazy" src="{{article.featured_image}}" alt="{{article.title}}" />
+    {% endif %}
+    <br>
   </header>
   <div class="entry-content">
     <p>{{ article.summary }}</p>
