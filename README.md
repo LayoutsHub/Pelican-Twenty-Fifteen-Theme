@@ -67,7 +67,7 @@ GOOGLE_ANALYTICS_ID = None
 Edit the below line publishconf.py -
 
 ```jinja
-SITEURL = "https://layoutshub.github.io/pelican-twenty-fifteen-theme/"
+SITEURL = "https://layoutshub.github.io/pelican-twenty-fifteen-theme"
 
 # Disqus Comment Plugin
 DISQUS_USERNAME = None
@@ -76,6 +76,7 @@ DISQUS_USERNAME = None
 GOOGLE_ANALYTICS_ID = None
 ```
 
+Note: SITEURL should not be ended with slash (/).
 ---
 
 ### Article Page Tags
