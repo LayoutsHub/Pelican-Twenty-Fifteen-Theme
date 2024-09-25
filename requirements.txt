@@ -10,7 +10,6 @@ Markdown==3.7
 markdown-it-py==3.0.0
 MarkupSafe==2.1.5
 mdurl==0.1.2
-minify_html==0.15.0
 ordered-set==4.1.0
 pelican==4.10.0
 pelican-minify==2.0.0

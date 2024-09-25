@@ -21,9 +21,6 @@ Easily generate a sitemap for your site. This helps search engines like Google t
 #### HTML/CSS Minification
 Your site's code is automatically compressed, making it smaller and faster to load without affecting the design or functionality.
 
-#### Quicklink Support
-Thanks to **Quicklink**, when someone visits your site, it preloads links they might click next. This means those pages will open lightning fast when they’re ready to explore more.
-
 ### SEO Features
 
 #### Optimized for SEO
@@ -53,7 +50,7 @@ Edit the below config in pelicanconf.py -
 ```jinja
 AUTHOR = 'Layouts Hub'
 SITENAME = "Layouts Hub"
-SITEURL = "https://layoutshub.github.io/pelican-twenty-fifteen-theme/"
+SITEURL = ""
 SITE_LOGO_URL = "YOUR_SITE_LOGO"
 SITE_SUMMARY = "A collection of Pelican, Jekyll, Hugo, Gatsby theme. Ported themes from other cms."
 

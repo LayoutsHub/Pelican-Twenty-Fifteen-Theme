@@ -1,17 +1,17 @@
 {% extends 'base.html' %}
 
-{% block title %} 
-    <title>{{ article.title }}</title> 
+{% block title %}
+<title>{{ article.title }}</title>
 {% endblock %}
 {% block robots %}
-  {% if article and article.metadata.robots %}
-    <meta name="robots" content="{{article.robots}}"/>
-  {% else %}
-    <meta name="robots" content="nonindex, follow"/>
-  {% endif %}
+{% if article and article.metadata.robots %}
+<meta name="robots" content="{{article.robots}}" />
+{% else %}
+<meta name="robots" content="nonindex, follow" />
+{% endif %}
 {% endblock %}
 
-{% block content %} 
+{% block content %}
 <article class="post type-post status-publish format-standard hentry">
   <header class="entry-header">
     <h2 class="entry-title">
@@ -19,7 +19,7 @@
     </h2>
     <br>
     {% if article.metadata.featured_image %}
-      <img loading="lazy" src="{{article.featured_image}}" alt="{{article.title}}"/>
+    <img loading="lazy" src="{{article.featured_image}}" alt="{{article.title}}" />
     {% endif %}
     <br>
   </header>
@@ -29,8 +29,8 @@
   <footer class="entry-footer">
     <span class="posted-on">
       <span class="screen-reader-text">Skip</span>
-        <time class="entry-date published" datetime="{{ article.date }}">{{ article.date.strftime("%Y-%m-%d") }}</time>
-        <time class="updated" datetime="{{ article.date }}">{{ article.date | strftime("%Y-%m-%d")}}</time>
+      <time class="entry-date published" datetime="{{ article.date }}">{{ article.date.strftime("%Y-%m-%d") }}</time>
+      <time class="updated" datetime="{{ article.date }}">{{ article.date | strftime("%Y-%m-%d")}}</time>
     </span>
     <span class="cat-links">
       <span class="screen-reader-text">Category </span>

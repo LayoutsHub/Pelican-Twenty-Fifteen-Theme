@@ -1,6 +1,6 @@
 AUTHOR = 'Layouts Hub'
 SITENAME = "Layouts Hub"
-SITEURL = "https://layoutshub.github.io/pelican-twenty-fifteen-theme"
+SITEURL = ""
 SITE_LOGO_URL = "YOUR_SITE_LOGO"
 SITE_SUMMARY = "A collection of Pelican, Jekyll, Hugo, Gatsby theme. Ported themes from other cms."
 
@@ -20,12 +20,6 @@ DISQUS_USERNAME = None
 
 # Google Analytics Tracking
 GOOGLE_ANALYTICS_ID = None
-
-# Social Username
-# Needed for Author Schema. You can modify author schema in includes/authorSchema.html
-FACEBOOK_USERNAME = "YOUR_FACEBOOK_USERNAME"
-TWITTER_USERNAME = "YOUR_TWITTER_USERNAME"
-LINKEDIN_USERNAME = "YOUR_LINKEDIN_USERNAME"
 
 # URL Structure
 ARTICLE_URL = "{slug}.html"
@@ -77,7 +71,9 @@ SITEMAP = {
     ]
 }
 
-PLUGINS = ['minify','sitemap']
+PLUGINS = ['sitemap']
+
+
 
 # Uncomment following line if you want document-relative URLs when developing 
 # RELATIVE_URLS =  True
