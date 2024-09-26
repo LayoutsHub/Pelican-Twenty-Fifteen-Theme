@@ -12,7 +12,6 @@ MarkupSafe==2.1.5
 mdurl==0.1.2
 ordered-set==4.1.0
 pelican==4.10.0
-pelican-minify==2.0.0
 pelican-pagination==2.0.1.post1
 pelican-sitemap==1.1.0
 Pygments==2.18.0
